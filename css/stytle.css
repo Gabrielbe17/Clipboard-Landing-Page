@@ -73,6 +73,7 @@ ul{
 .header{
     background: url(../images/bg-header-desktop.png) no-repeat;
     background-size: cover;
+    text-align: center;
 }
 .header .header__container{
     display: flex;
@@ -227,9 +228,6 @@ ul{
         align-items: center;
         text-align: center;
     }
-    .header{
-        text-align: center;
-    }
 }
 @media screen and (max-width:810px) {
     .footer{
@@ -245,9 +243,6 @@ ul{
 }
 /* Mobile 500px*/
 @media screen and (max-width:640px) {
-    .header{
-        text-align: center;
-    }
     .cta{
         display: flex;
         flex-direction: column;
